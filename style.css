@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:wght@400;700&display=swap');
+html {
+    background-color: palegoldenrod;
+}
+div {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+div {
+    position: sticky;
+    top: 0;
+    right: 0;
+    font-family: 'Lobster Two', sans-serif;
+}
+
+h1 {
+    border: dashed 3px orange;
+    color: aliceblue;
+}
+h1:hover {
+    transform: scale(.85);
+}
+ img {
+    background-image: url(call-me-fred-X6kdEEqxbB4-unsplash.jpg));
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100vw
+}
+
+div:nth-of-type(3) {
+    display: inline;
+    background-color: orange;
+    z-index: 1;
+}
+
+li {
+    background-color: aquamarine;
+}
+ol {
+    background-color: chartreuse;
+}
